@@ -1,16 +1,73 @@
-# AIHub2API：普通人也能直接管理自己的 AI 账号，不用再自己搭中转站
+# AIHub2API：AI 账号管理平台 / AI API Gateway，普通人也能直接管理自己的 AI 账号
 
-官网地址：https://aihub2api.com
+官网地址：[https://aihub2api.com](https://aihub2api.com)
 
-在线访问：[https://aihub2api.com](https://aihub2api.com)
+AIHub2API 是一个面向普通用户和小团队的 **AI 账号管理平台** 与 **AI API Gateway**。它的核心价值是：**用户不需要自己搭中转站，也不需要自己维护复杂的代理和服务器环境，就可以直接把自己的 OpenAI、Claude、Gemini、Codex 等账号导入平台统一管理和调用。**
+
+如果你在搜索这些问题，这个项目就是为这类需求设计的：
+
+- AI 账号管理平台
+- AI API Gateway
+- OpenAI 中转 / OpenAI proxy
+- Claude 中转 / Claude proxy
+- Gemini 中转 / Gemini proxy
+- Codex 中转 / Codex proxy
+- 共享 IP / 共享代理 / shared proxy / shared IP
+- 无需自建中转站
+- 导入自己的 OpenAI / Claude / Gemini / Codex 账号
+- API Key 分发、用量统计、AI 账号统一管理
+
+## AIHub2API 是什么
 
 很多人想把自己的 OpenAI、Gemini、Claude、Codex 一类账号统一管理起来，第一反应往往是“自己搭一个中转站”。但真正做过的人都知道，这件事远没有表面上那么简单。
 
 你要准备服务器，要配 Docker、数据库、Redis、反向代理，要处理线路、代理、风控、更新、掉线、监控，还要持续维护。对普通用户来说，这不仅费时费力，而且门槛很高。很多人并不是不会用 AI，而是被“先搭一整套基础设施”这件事劝退了。
 
-这个网站最大的特点，就在于它把最麻烦的那一层提前做好了。
+AIHub2API 解决的正是这件事。它不是让用户去学怎么搭中转站，而是直接提供一套已经搭好的中转管理环境。用户不需要自己买服务器、配环境、折腾网络，只需要注册登录后，把自己的账号导入进来，就可以开始统一管理、统一调用、统一查看使用情况。
 
-它不是让用户去学怎么搭中转站，而是直接提供一套已经搭好的中转管理环境。用户不需要自己买服务器、配环境、折腾网络，只需要注册登录后，把自己的账号导入进来，就可以开始统一管理、统一调用、统一查看使用情况。
+## 核心功能
+
+- 导入并管理自己的 OpenAI、Claude、Gemini、Codex 等 AI 账号
+- 直接使用已经搭好的共享中转、共享 IP、共享代理能力
+- 无需自己部署 AI 中转站、API 网关、代理环境
+- 统一生成和管理 API Key
+- 统一查看账号状态、调用情况、使用量和账单明细
+- 支持账号管理、IP 管理、共享中转绑定额度查看
+- 支持续费、扩容、自助开通等完整管理闭环
+
+## 适合谁
+
+- 想找 AI 账号管理平台，而不是自己从零搭系统的人
+- 想把多个 OpenAI / Claude / Gemini / Codex 账号统一管理的人
+- 不想处理服务器、代理、共享 IP、反向代理和运维细节的人
+- 想保留“自己的账号自己管理”自主权的个人用户和小团队
+- 想要 AI API Gateway、共享代理、统一 API Key 管理能力的用户
+
+## 常见问题
+
+### AIHub2API 是什么？
+
+AIHub2API 是一个 AI 账号管理平台，也是一个 AI API Gateway。它帮助用户在已经搭好的中转环境中导入、绑定、管理和调用自己的 AI 账号。
+
+### 需要自己搭中转站吗？
+
+不需要。AIHub2API 最大的特点就是已经把中转能力提前搭好了，普通用户不必再自己部署中转站、配置服务器和代理环境。
+
+### 支持哪些平台？
+
+当前核心宣传方向包括 OpenAI、Claude、Gemini、Codex 等主流 AI 平台账号管理与统一调用。
+
+### 可以导入自己的账号吗？
+
+可以。AIHub2API 的核心卖点之一就是支持用户把自己的 OpenAI、Claude、Gemini、Codex 等账号导入平台统一管理，而不是只能使用平台公共账号。
+
+### 可以做什么管理？
+
+可以做 AI 账号管理、IP / 代理管理、共享中转绑定、API Key 分发、用量统计、账单查看和权限管理。
+
+## English Search Keywords
+
+AIHub2API is an **AI account management platform** and **AI API gateway** for users who want to import and manage their own OpenAI, Claude, Gemini and Codex accounts without self-hosting a proxy server or API relay system.
 
 ## 界面预览
 
