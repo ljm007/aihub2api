@@ -8,6 +8,36 @@
 
 它不是让用户去学怎么搭中转站，而是直接提供一套已经搭好的中转管理环境。用户不需要自己买服务器、配环境、折腾网络，只需要注册登录后，把自己的账号导入进来，就可以开始统一管理、统一调用、统一查看使用情况。
 
+## 界面预览
+
+下面这些图片全部使用仓库内相对路径 `./images/...` 引用，GitHub 打开 `README` 时可以直接正常预览。
+
+### 平台总览
+
+![AIHub2API 平台总览](./images/image.png)
+
+### 账号管理
+
+![AIHub2API 账号管理 1](./images/zh.png)
+
+![AIHub2API 账号管理 2](./images/zh2.png)
+
+![AIHub2API 账号管理 3](./images/zh3.png)
+
+### 共享 IP / 代理管理
+
+![AIHub2API IP 管理 1](./images/ip.png)
+
+![AIHub2API IP 管理 2](./images/ip2.png)
+
+![AIHub2API IP 管理 3](./images/ip3.png)
+
+### 其他页面展示
+
+![AIHub2API 页面展示 1](./images/fz.png)
+
+![AIHub2API 页面展示 2](./images/rq.jpg)
+
 ## 它解决的不是“会不会用”，而是“还要不要自己折腾”
 
 传统做法里，用户如果想把自己的账号接入 API，通常要自己完成这些事：
