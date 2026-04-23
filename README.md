@@ -10,8 +10,6 @@
 
 ## 界面预览
 
-下面这些图片全部使用仓库内相对路径 `./images/...` 引用，GitHub 打开 `README` 时可以直接正常预览。
-
 ### 平台总览
 
 ![AIHub2API 平台总览](./images/image.png)
