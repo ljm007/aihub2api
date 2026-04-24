@@ -1,5 +1,7 @@
 # AIHub2API：AI 账号管理平台 / AI API Gateway，普通人也能直接管理自己的 AI 账号
 
+中文 | [English](./README_EN.md)
+
 官网地址：[https://aihub2api.com](https://aihub2api.com)
 
 AIHub2API 是一个面向普通用户和小团队的 **AI 账号管理平台** 与 **AI API Gateway**。它的核心价值是：**用户不需要自己搭中转站，也不需要自己维护复杂的代理和服务器环境，就可以直接把自己的 OpenAI、Claude、Gemini、Codex 等账号导入平台统一管理和调用。**
